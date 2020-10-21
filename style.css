@@ -77,7 +77,6 @@ img {
 /* MEDIA QUERY SCREEN ADJUSTAMENT */
 
 /* tablet view */
-
 @media screen and (max-width: 768px){
   body{
     background-color: lightgrey;
@@ -98,8 +97,7 @@ img {
     font-size: 40px;
   }
 }
-
-/* 77 tablet view */
+/* // tablet view */
 
 /* 420 view */
 @media screen and (max-width: 420px){
@@ -148,5 +146,4 @@ img {
     font-size: 45px;
   }
 }
-
 /* // 420 view */
