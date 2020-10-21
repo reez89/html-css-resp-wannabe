@@ -72,13 +72,41 @@ img {
   clear: both;
 }
 
+
+
+/* MEDIA QUERY SCREEN ADJUSTAMEN */
+
 @media screen and (max-width: 420px){
+
+  body{
+    font-size: 14px;
+    font-family: helvetica;
+  }
   #lezioni .row>.left, #lezioni .row>.right{
     float: none;
-    margin: 0 auto;
+    margin: auto;
+  }
+  #lezioni .row{
+    background-color: lightyellow;
+    margin-top:0;
+  }
+
+  #steps{
+    background-color: white;
   }
   #steps .row>.left, #steps .row>.central, #steps .row>.right{
     float: none;
     margin: 0 auto;
+  }
+
+  #why .row  {
+    background-color: lightyellow;
+  }
+
+  #why h3, #steps h3, #lezioni h3{
+    font-size: 30px;
+  }
+  #lezioni h1{
+    font-size: 40px;
   }
 }
